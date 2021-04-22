@@ -1,0 +1,44 @@
+header {
+    position: relative;
+    background-color: blue;
+    overflow: hidden;
+    max-height: 73px;
+    max-width: 100%;
+}
+
+h1 {
+    padding-left: .5em;
+    color: white;
+}
+
+header h1 {
+    float: left;
+    color: white;
+}
+
+h1 span {
+    color: orange;
+}
+
+ul {
+    clear: left;
+    list-style-type: none;
+    color: white;
+    padding-left: 0;
+    margin-bottom: 0;
+}
+
+nav {
+    float: right;
+}
+
+#menu li {
+    float: left;
+    padding: 1em;
+    border-top: none;
+}
+
+a {
+    text-decoration: none;
+    color: orange;
+}
