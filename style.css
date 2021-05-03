@@ -221,9 +221,13 @@ header .user nav .nav #right:hover {
 
 
 
+
+
+
+
+
 .about-section {
-    padding: 10px;
-    background: rgba(0, 255, 208, 0.527);
+    background: rgba(108, 119, 117, 0.527);
 }
 
 .section-title h1 {
@@ -232,10 +236,20 @@ header .user nav .nav #right:hover {
     text-align: center;
     padding: 25px;
     font-size: 48px;
-    text-shadow: 0px 5px 10px rgba(0, 0, 0, 0.685);
+    text-shadow: 0px 5px 10px rgba(168, 168, 168, 0.685);
     background: -webkit-linear-gradient(120deg, #045891e3, #1a352fef);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+}
+
+.inner-container {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.uno img {
+    width: 1000px;
+    height: 400px;
 }
 
 
@@ -256,7 +270,7 @@ header .user nav .nav #right:hover {
     margin-left: 50px;
     width: 250px;
     height: 350px;
-    background: rgba(0, 0, 0, 0.692);
+    background: rgba(89, 199, 179, 0.692);
     transform-style: preserve-3d;
     transform: perspective(2000px);
     transition: 1s;
@@ -325,9 +339,48 @@ header .user nav .nav #right:hover {
     justify-content: center;
     align-items: center;
     text-align: center;
+    background-color: rgba(34, 255, 214, 0.527);
+    height: 1000px;
+}
+
+.unoc {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
     background-color: rgba(108, 119, 117, 0.527);
-    height: 543px;
-    margin-bottom: 60px;
+    height: 1000px;
+}
+
+.dosc {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: rgba(108, 119, 117, 0.527);
+    height: 1000px;
+}
+
+.unoc .uno img{
+    margin-top: 60px;
+}
+
+.dosc .dos img{
+    width: 250px;height: 650px;
+}
+
+.unoc .uno h1{
+    text-align: left;
+    margin-left: 100px;
+    border-bottom: 2px solid red;
+    width: 300px;
+}
+
+.unoc .uno p{
+    margin: 60px;
+    text-align: justify;
 }
 
 .dere h1 {
