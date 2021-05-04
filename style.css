@@ -240,6 +240,7 @@ header .user nav .nav #right:hover {
     background: -webkit-linear-gradient(120deg, #045891e3, #1a352fef);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    margin-top: 80px;
 }
 
 .inner-container {
@@ -252,18 +253,29 @@ header .user nav .nav #right:hover {
     height: 400px;
 }
 
+.dosc p {
+    margin-top: 60px;
+}
+
+.dere {
+    padding: 25px 40px;
+    border: 1p solid #27ae60;
+    border-top-right-radius: 5%;
+    border-bottom-right-radius: 5%;
+    margin-right: 100px;
+    margin-top: -10px;
+}
+
 
 .izqui {
-    display: flex;
-    background-size: cover;
-    height: 100%;
-    border-radius: 2%;
-    margin-left: 200px;
-    margin-bottom: 20px;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+    padding: 25px 40px;
+    border: 1p solid #27ae60;
+    border-top-right-radius: 5%;
+    border-bottom-right-radius: 5%;
+    margin-right: 100px;
+    margin-top: -10px;
 }
+
 
 .cartAU {
     position: relative;
@@ -324,14 +336,6 @@ header .user nav .nav #right:hover {
     margin-bottom: 30px;
 }
 
-.dere {
-    padding: 25px 40px;
-    border: 1p solid #27ae60;
-    border-top-right-radius: 5%;
-    border-bottom-right-radius: 5%;
-    margin-right: 100px;
-    margin-top: -10px;
-}
 
 .inner-box {
     display: grid;
@@ -353,6 +357,35 @@ header .user nav .nav #right:hover {
     height: 1000px;
 }
 
+.tresc {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    background-color: rgba(108, 119, 117, 0.527);
+    height: 1300px;
+}
+
+.tresc .tre {
+    margin-top: 60px;
+}
+
+.tresc img {
+    width: 750px;
+    height: 350px;
+    margin-left: 30%;
+}
+
+.tresc .tre h1 {
+    text-align: left;
+    margin-left: 100px;
+    border-bottom: 2px solid red;
+    width: 300px;
+    margin-bottom: 100px;
+}
+
+.tresc .tre p {
+    margin: 50px
+}
+
 .dosc {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -363,40 +396,59 @@ header .user nav .nav #right:hover {
     height: 1000px;
 }
 
-.unoc .uno img{
+.unoc .uno img {
     margin-top: 60px;
 }
 
-.dosc .dos img{
-    width: 250px;height: 650px;
+.dosc img {
+    width: 450px;
+    height: 750px;
 }
 
-.unoc .uno h1{
+
+.unoc .uno h1 {
     text-align: left;
     margin-left: 100px;
     border-bottom: 2px solid red;
     width: 300px;
 }
 
-.unoc .uno p{
+.unoc .uno p {
     margin: 60px;
     text-align: justify;
-}
-
-.dere h1 {
-    margin-bottom: 30px;
-    font-size: 30px;
-    font-weight: 900;
-    line-height: 36px;
-    margin-top: revert;
-    text-transform: uppercase;
-    text-shadow: 0px 5px 10px rgba(168, 168, 168, 0.685);
-    background: -webkit-linear-gradient(40deg, #075b92e3, #226d5def);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    margin-top: 140px;
 }
 
 .dere .tt {
+    font-size: 13px;
+    color: #ffffff;
+    line-height: 30px;
+    text-align: justify;
+    margin-top: 50px;
+    height: 280px;
+}
+
+.cuac {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    background-color: rgba(108, 119, 117, 0.527);
+    height: 800px;
+}
+
+.cuac .cua {
+    margin-top: 60px;
+}
+
+.cuac .cua h1{
+    text-align: left;
+    margin-left: 100px;
+    border-bottom: 2px solid red;
+    width: 300px;
+    margin-bottom: 100px;
+}
+
+
+.izqui .tt {
     font-size: 13px;
     color: #ffffff;
     line-height: 30px;
@@ -449,4 +501,42 @@ header .user nav .nav #right:hover {
 .fac {
     background: #3b5998;
     color: white;
+}
+
+.containersi {
+    width: 560px;
+    margin: auto;
+    text-align: center;
+}
+
+.containersi input {
+    outline: 0;
+    border: 1px solid (#00000038);
+    min-width: 400px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+    padding: 10px;
+    margin: 20px auto 0px auto;
+    display: block;
+    font-size: 14px;
+}
+
+.containersi .texto {
+    min-height: 200px;
+}
+
+.container .button {
+    text-align: center;
+    cursor: pointer;
+    background-color: blue;
+    color: white;
+}
+
+.containersi .principal {
+    z-index: 1;
+    background: #ffffff;
+    padding: 10px;
+    border: 1px solid rgb(255, 255, 255);
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+    border-radius: 10px;
 }
