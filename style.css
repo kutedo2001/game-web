@@ -357,6 +357,16 @@ header .user nav .nav #right:hover {
     height: 1000px;
 }
 
+.contar {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: rgba(108, 119, 117, 0.527);
+    height: 1000px;
+}
+
 .tresc {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
@@ -540,3 +550,54 @@ header .user nav .nav #right:hover {
     box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
     border-radius: 10px;
 }
+
+.portada.oculta {
+	transform: translateY(100%);
+}
+
+.portada .header {
+	margin-bottom: 100px;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+}
+
+.portada .header .logotipo {
+	font-size: 50px;
+	font-size: 900;
+	margin-bottom: 20px;
+}
+
+.portada .header .mensaje {
+	font-size: 30px;
+	font-weight: 600;
+}
+
+/* ? ----- Cuenta Regresiva ----- */
+#cuenta {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 100px;
+}
+
+.simply-section {
+	background: #fff;
+	width: 180px;
+	height: 180px;
+	margin: 0 20px;
+	border-radius: 5px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.simply-amount {
+	display: block;
+	font-size: 50px;
+	font-weight: 700;
+}
+
+.simply-word {
+	font-weight: 300;
+	font-size: 30px;
+}
+
